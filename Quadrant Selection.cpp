@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main()
+{
+    short int x = 0;
+    short int y = 0;
+    std::cin >> x;
+    std::cin >> y;
+    if ((x > 0) && (y > 0)) {
+        std::cout << 1;
+    }
+    else if ((x < 0) && (y > 0)) {
+        std::cout << 2;
+    }
+    else if ((x < 0) && (y < 0)) {
+        std::cout << 3;
+    }
+    else {
+        std::cout << 4;
+    }
+    return 0;
+}
